@@ -1,16 +1,16 @@
 # clean-boilerplate
 A personal clean-boilerplate web api
 
-This is a personal repository for a Clean Web API with JWT authentication and autorization, email confirmantio and bla bla bla. 
+This is a personal repository for a Clean Web API with JWT authentication and autorization, email confirmantio, etc. 
 
-In addition, I'm using:
+Below is a partial list about this project stack:
 
+- Hexagonal Architecture :heart:
 - Fluent Validation
 - Serilog
 - Dapper
 - Sendgrid
 
-This is a simple architecture. I'm pointing to a Postgres server, but it's easy to change the database.
-PS: I'm not using blackbox solutions, like EF, but you can attach one of these pandora boxes easely using a "hexagonal/ports and adapters" architecture.
+The storage layer is based on Postgres, but is easy to change to any other database tool using this architecture.
 
-Final words: It's not 100%, for sure. I'm aggregating more tools im my private repository and suddenly I'll increase this repo too. But it's functional ... and SIMPLE!
+PS: I'm not using any blackbox solution, but you can attach one easely bc I'm using "hexagonal/ports and adapters" architecture!
